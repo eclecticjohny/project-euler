@@ -16,7 +16,7 @@ export const Solutions = () => {
 // Find the sum of all the multiples of 3 or 5 below 1000.
 
 const solutionOne = () => {
-    const numberToUse = 10;
+    const numberToUse = 1000;
     const numberSummer = (num: number) => {
         let multiples: number[] = [];
         for (let i = 0; i < num; i++) {
