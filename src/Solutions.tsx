@@ -1,15 +1,14 @@
 import React from "react";
+import "./Solutions.css";
 
 export const Solutions = () => {
     return (
         <>
             <div>
-                Solution One:{" "}
-                <span style={solutionOutputStyle}>{solutionOne()}</span>
+                Solution One: <span className="Solutions">{solutionOne()}</span>
             </div>
             <div>
-                Solution Two:{" "}
-                <span style={solutionOutputStyle}>{solutionTwo()}</span>
+                Solution Two: <span className="Solutions">{solutionTwo()}</span>
             </div>
         </>
     );
@@ -49,9 +48,4 @@ const solutionTwo = () => {
         fibonacciArray.push(i);
     }
     return fibonacciArray.reduce((a, b) => (b % 2 === 0 ? a + b : a + 0), 0);
-};
-
-const solutionOutputStyle: React.CSSProperties = {
-    color: "red",
-    fontWeight: "bold"
 };
