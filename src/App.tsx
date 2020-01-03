@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
-import { Solutions } from "./Solutions";
+import { One, Two, Three } from "./solutions";
 
 const App: React.FC = () => {
     return (
         <div className="App">
             <header className="App-header">
-                <Solutions />
+                <One />
+                <Two />
+                <Three />
             </header>
         </div>
     );
