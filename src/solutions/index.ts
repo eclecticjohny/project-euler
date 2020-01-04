@@ -4,3 +4,4 @@ export { Three } from './Three';
 export { Four } from './Four';
 export { Five } from './Five';
 export { Six } from './Six';
+export { Seven } from './Seven';
