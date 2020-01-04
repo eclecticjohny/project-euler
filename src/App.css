@@ -12,3 +12,8 @@
     font-size: calc(10px + 2vmin);
     color: white;
 }
+
+.Solutions {
+    color: red;
+    font-weight: bold;
+}

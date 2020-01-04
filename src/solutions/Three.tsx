@@ -1,5 +1,4 @@
 import React from "react";
-import "./Solutions.css";
 
 export const Three = () => {
     // Problem 3
