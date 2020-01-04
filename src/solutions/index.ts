@@ -6,3 +6,4 @@ export { Five } from './Five';
 export { Six } from './Six';
 export { Seven } from './Seven';
 export { Eight } from './Eight';
+export { Nine } from './Nine';

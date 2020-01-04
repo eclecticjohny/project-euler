@@ -1,6 +1,16 @@
 import React from 'react';
 import './App.css';
-import { One, Two, Three, Four, Five, Six, Seven, Eight } from './solutions';
+import {
+  One,
+  Two,
+  Three,
+  Four,
+  Five,
+  Six,
+  Seven,
+  Eight,
+  Nine
+} from './solutions';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +24,7 @@ const App: React.FC = () => {
         <Six />
         <Seven />
         <Eight />
+        <Nine />
       </header>
     </div>
   );
