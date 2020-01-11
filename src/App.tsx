@@ -10,7 +10,8 @@ import {
   Seven,
   Eight,
   Nine,
-  Ten
+  Ten,
+  Eleven
 } from './solutions';
 
 const App: React.FC = () => {
@@ -27,6 +28,7 @@ const App: React.FC = () => {
         <Eight />
         <Nine />
         <Ten />
+        <Eleven />
       </header>
     </div>
   );
